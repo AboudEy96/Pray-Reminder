@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskMAUI.MainPage"
+             Title="تذكير الصلاة"
+             BackgroundColor="#F3E5F5">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+               
+            <Label Text="📿 تذكير الصلاة" 
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="#6A1B9A"
+                   HorizontalOptions="Center" />
+            
+            <Frame BackgroundColor="#9C27B0" 
+                   CornerRadius="15"
+                   Padding="15"
+                   HasShadow="True">
+                <Label Text="🕒 الوقت الحالي: 12:30 م" 
+                       FontSize="18"
+                       TextColor="White"
+                       HorizontalOptions="Center" />
+            </Frame>
+
+            <VerticalStackLayout Spacing="20">
+
+                <Frame BackgroundColor="White"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="True">
+                    <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto" Padding="15">
+                        <Label Text="صلاة الفجر" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="#6A1B9A"
+                               Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="🕓 5:30 ص" 
+                               FontSize="16"
+                               TextColor="#757575"
+                               Grid.Column="0" Grid.Row="1"/>
+                        <Button Text="تمت الصلاة" 
+                                Clicked="OnPrayerDoneClicked"
+                                BackgroundColor="#7B1FA2"
+                                TextColor="White"
+                                CornerRadius="10"
+                                FontAttributes="Bold"
+                                Padding="15,0"
+                                Grid.Column="1" Grid.RowSpan="2"/>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="White"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="True">
+                    <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto" Padding="15">
+                        <Label Text="صلاة الظهر" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="#6A1B9A"
+                               Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="🕑 12:30 م" 
+                               FontSize="16"
+                               TextColor="#757575"
+                               Grid.Column="0" Grid.Row="1"/>
+                        <Button Text="تمت الصلاة" 
+                                Clicked="OnPrayerDoneClicked"
+                                BackgroundColor="#7B1FA2"
+                                TextColor="White"
+                                CornerRadius="10"
+                                FontAttributes="Bold"
+                                Padding="15,0"
+                                Grid.Column="1" Grid.RowSpan="2"/>
+                    </Grid>
+                </Frame>
+                
+                <Frame BackgroundColor="White"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="True">
+                    <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto" Padding="15">
+                        <Label Text="صلاة العصر" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="#6A1B9A"
+                               Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="🕒 3:45 م" 
+                               FontSize="16"
+                               TextColor="#757575"
+                               Grid.Column="0" Grid.Row="1"/>
+                        <Button Text="فاتتك" 
+                                Clicked="OnPrayerDoneClicked"
+                                BackgroundColor="#ff0000"
+                                TextColor="White"
+                                CornerRadius="10"
+                                FontAttributes="Bold"
+                                Padding="15,0"
+                                Grid.Column="1" Grid.RowSpan="2"/>
+                    </Grid>
+                </Frame>
+
+                <Frame BackgroundColor="White"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="True">
+                    <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto" Padding="15">
+                        <Label Text="صلاة المغرب" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="#6A1B9A"
+                               Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="🌇 6:15 م" 
+                               FontSize="16"
+                               TextColor="#757575"
+                               Grid.Column="0" Grid.Row="1"/>
+                        <Button Text="قيد الانتظار" 
+                                Clicked="OnPrayerDoneClicked"
+                                BackgroundColor="#CE93D8"
+                                TextColor="#6A1B9A"
+                                CornerRadius="10"
+                                FontAttributes="Bold"
+                                Padding="15,0"
+                                Grid.Column="1" Grid.RowSpan="2"/>
+                    </Grid>
+                </Frame>
+                
+                <Frame BackgroundColor="White"
+                       CornerRadius="12"
+                       Padding="0"
+                       HasShadow="True">
+                    <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto" Padding="15">
+                        <Label Text="صلاة العشاء" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="#6A1B9A"
+                               Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="🌃 7:45 م" 
+                               FontSize="16"
+                               TextColor="#757575"
+                               Grid.Column="0" Grid.Row="1"/>
+                        <Button Text="لم يحن الوقت" 
+                                Clicked="OnPrayerDoneClicked"
+                                BackgroundColor="#E1BEE7"
+                                TextColor="#6A1B9A"
+                                CornerRadius="10"
+                                FontAttributes="Bold"
+                                Padding="15,0"
+                                Grid.Column="1" Grid.RowSpan="2"/>
+                    </Grid>
+                </Frame>
+
+            </VerticalStackLayout>
+            
+            <Button Text="الصلوات الفائتة"
+                    BackgroundColor="#AB47BC"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="12"
+                    HeightRequest="50"
+                    Margin="0,15,0,0"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

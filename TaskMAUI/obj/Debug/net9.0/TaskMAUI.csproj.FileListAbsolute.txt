@@ -1,0 +1,13 @@
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\bin\Debug\net9.0\TaskMAUI.deps.json
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\bin\Debug\net9.0\TaskMAUI.dll
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\bin\Debug\net9.0\TaskMAUI.pdb
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.csproj.AssemblyReference.cache
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.GeneratedMSBuildEditorConfig.editorconfig
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.AssemblyInfoInputs.cache
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.AssemblyInfo.cs
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.csproj.CoreCompileInputs.cache
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\XamlC.stamp
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.dll
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\refint\TaskMAUI.dll
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.pdb
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\ref\TaskMAUI.dll
