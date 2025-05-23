@@ -11,3 +11,4 @@ F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.dll
 F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\refint\TaskMAUI.dll
 F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.pdb
 F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\ref\TaskMAUI.dll
+F:\Android-IOS-Apps\TaskMAUI\TaskMAUI\obj\Debug\net9.0\TaskMAUI.sourcelink.json

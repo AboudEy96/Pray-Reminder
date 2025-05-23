@@ -1,0 +1,73 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskMAUI.LoginPage"
+             BackgroundColor="#121212"
+             Title="">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
+
+            <!-- أيقونة -->
+            <Frame WidthRequest="120" HeightRequest="120"
+                   CornerRadius="60"
+                   BackgroundColor="#1F1F1F"
+                   HorizontalOptions="Center"
+                   HasShadow="True">
+                <Label Text="🔒" FontSize="60"
+                       HorizontalOptions="Center" VerticalOptions="Center" />
+            </Frame>
+
+            <!-- العنوان -->
+            <Label x:Name="TitleLabel"
+                   Text="تسجيل الدخول"
+                   FontSize="28"
+                   TextColor="#FFFFFF"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- إدخال البريد -->
+            <Frame BackgroundColor="#1F1F1F" CornerRadius="10" Padding="10" HasShadow="False">
+                <Entry x:Name="EmailEntry"
+                       Placeholder="البريد الإلكتروني"
+                       PlaceholderColor="#888888"
+                       BackgroundColor="Transparent"
+                       TextColor="#FFFFFF"
+                       HeightRequest="50" />
+            </Frame>
+
+            <!-- إدخال كلمة المرور -->
+            <Frame BackgroundColor="#1F1F1F" CornerRadius="10" Padding="10" HasShadow="False">
+                <Entry x:Name="PasswordEntry"
+                       Placeholder="كلمة المرور"
+                       PlaceholderColor="#888888"
+                       IsPassword="True"
+                       BackgroundColor="Transparent"
+                       TextColor="#FFFFFF"
+                       HeightRequest="50" />
+            </Frame>
+
+            <!-- زر الدخول/التسجيل -->
+            <Button x:Name="ActionButton"
+                    Text="دخول"
+                    BackgroundColor="#673AB7"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    Clicked="OnActionButtonClicked" />
+
+            <!-- تبديل -->
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label x:Name="SwitchLabel"
+                       Text="ليس لديك حساب؟"
+                       TextColor="#CCCCCC" />
+                <Button x:Name="SwitchButton"
+                        Text="إنشاء حساب"
+                        BackgroundColor="Transparent"
+                        TextColor="#673AB7"
+                        Clicked="OnSwitchButtonClicked" />
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

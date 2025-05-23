@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskMAUI.iOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0f1ada013fd84d47135a5f5e15fc92af60f8ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskMAUI.iOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskMAUI.iOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
